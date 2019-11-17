@@ -1,33 +1,35 @@
 {
     "configurations": [
-      {
-        "name": "MinGW",
-        "intelliSenseMode": "clang-x64",
-        "compilerPath": "C:\\LLVM\\bin\\gcc.exe",
-        "includePath": [
-          "${workspaceFolder}",
-          "C:\\MinGW\\mingw64\\include",
-          "C:\\MinGW\\mingw64\\lib\\gcc\\x86_64-w64-mingw32\\8.1.0\\include",
-          "C:\\MinGW\\mingw64\\lib\\gcc\\x86_64-w64-mingw32\\8.1.0\\include\\c++"
-        ],
-        "defines": [
-          "_DEBUG",
-          "UNICODE",
-          "__cdecl=__attribute__((__cdecl__))"
-        ],
-        "browse": {
-          "path": [
-            "${workspaceFolder}",
-            "C:\\MinGW\\mingw64\\include",
-            "C:\\MinGW\\mingw64\\lib\\gcc\\x86_64-w64-mingw32\\8.1.0\\include",
-            "C:\\MinGW\\mingw64\\lib\\gcc\\x86_64-w64-mingw32\\8.1.0\\include\\c++"
-          ],
-          "limitSymbolsToIncludedHeaders": true,
-          "databaseFilename": ""
-        },
-        "cStandard": "c11",
-        "cppStandard": "c++17"
-      }
+        {
+            "name": "MinGW",
+            "intelliSenseMode": "clang-x64",
+            "compilerPath": "C:\\LLVM\\bin\\gcc.exe",
+            "includePath": [
+                "${workspaceFolder}",
+                "C:\\MinGW\\mingw64\\include",
+                "C:\\MinGW\\mingw64\\lib\\gcc\\x86_64-w64-mingw32\\8.1.0\\include",
+                "C:\\MinGW\\mingw64\\lib\\gcc\\x86_64-w64-mingw32\\8.1.0\\include\\c++"
+            ],
+            "defines": [
+                "_DEBUG",
+                "UNICODE",
+                "__cdecl=__attribute__((__cdecl__))"
+            ],
+            "browse": {
+                "path": [
+                    "${workspaceFolder}",
+                    "C:\\MinGW\\mingw64\\include",
+                    "C:\\MinGW\\mingw64\\lib\\gcc\\x86_64-w64-mingw32\\8.1.0\\include",
+                    "C:\\MinGW\\mingw64\\lib\\gcc\\x86_64-w64-mingw32\\8.1.0\\include\\c++"
+                ],
+                "limitSymbolsToIncludedHeaders": true,
+                "databaseFilename": ""
+            },
+            "cStandard": "c11",
+            "cppStandard": "c++17",
+            "configurationProvider": "go2sh.cmake-integration",
+            "compileCommands": "${workspaceFolder}/build/compile_commands.json"
+        }
     ],
     "version": 4
-  }
+}
