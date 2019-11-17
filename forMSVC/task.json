@@ -1,8 +1,16 @@
-"version": "2.0.0",
-"tasks": [{
-    "taskName": "test build",
-    "type": "shell",
-    "command": "${workspaceRoot}/build.bat",
-    "group": {
-        "kind": "build",
-        "isDefault": true
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "(Windows) Launch",
+            "type": "cppvsdbg",
+            "request": "launch",
+            "program": "test.exe",
+            "args": [],
+            "stopAtEntry": false,
+            "cwd": "${workspaceRoot}/debug",
+            "environment": [],
+            "externalConsole": true
+        }
+    ]
+}
